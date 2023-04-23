@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    background-color: snow;
+    color: goldenrod;
+    font-family: 'Muli', sans-serif;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100hv;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}
